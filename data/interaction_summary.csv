@@ -1,0 +1,13 @@
+Item,Value
+Sender cell,Regulatory T cell (Treg)
+Ligand,TGFB1 (Transforming growth factor beta-1)
+Receptor,TGFBR1 / TGFBR2 complex
+Receiver cell,Conventional CD4+ T cell
+Signaling type,Primarily paracrine (with contact-dependent component)
+OmniPath,TGFB1 annotated as secreted ligand (transmitter); TGFBR2 as transmembrane receptor
+STRING key proteins,"TGFBR1, TGFBR2, SMAD2, SMAD3, SMAD4"
+STRING enriched pathway,Transforming growth factor beta receptor signaling pathway / Regulation of SMAD protein signal transduction
+IntAct interaction,TGFB1 – TGFBR2
+IntAct method,Surface plasmon resonance and cross-linking study
+IntAct conclusion,Supports direct physical interaction
+Cellular response,Suppression of T-cell proliferation / Immune tolerance
