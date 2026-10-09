@@ -1,47 +1,39 @@
 # Cell-to-Cell Communication: Regulatory T Cell
 Name: BULLANDAY, JASMIN GRACE T.
 
-## Title and biological question
-How does a Regulatory T cell communicate with other immune cells to maintain immune tolerance?
+## Biological Question
+How do Regulatory T cells communicate with conventional T cells to suppress immune responses via TGF-β signaling?
 
-## Chosen sender cell and biological context
-- Sender cell: Regulatory T cell (FOXP3⁺ CD4⁺ CD25⁺ Treg)
-- Tissue/context: Immune tolerance / suppression of excessive immune responses / maintenance of immune homeostasis
-- Why it is a meaningful sender:
+## Chosen Sender Cell and Biological Context
+**Sender cell**: Regulatory T cell (Treg, CD4+FOXP3+)  
+**Context**: Immune tolerance and suppression of effector T-cell responses (homeostasis / prevention of autoimmunity).
 
-## Candidate ligand and evidence for sender-cell expression
-- Official gene/protein name: TGFB1 (Transforming growth factor beta 1)
-- Evidence that the sender cell produces/presents it: [HPA data + literature + any screenshot description]
-- Type of signaling: Paracrine
+## Candidate Ligand and Evidence for Sender-Cell Expression
+**Ligand**: TGFB1 (Transforming growth factor beta-1)  
+**Evidence**: Tregs are the major producers of latent TGF-β1 among CD4+ T cells and uniquely activate it via surface GARP (LRRC32). Supported by Human Protein Atlas RNA data in T-reg populations and multiple peer-reviewed studies (e.g., PMC10552796).
 
-## Receptor and receiver cell with supporting evidence
-- Receptor: TGFBR2 (with TGFBR1)
-- Receiver cell: [e.g. effector T cell / dendritic cell]
-- Supporting evidence: [HPA, UniProt, OmniPath, literature]
+## Receptor and Receiver Cell with Supporting Evidence
+**Receptor**: TGFBR1 / TGFBR2 complex  
+**Receiver cell**: Conventional / effector CD4+ T cell  
+**Evidence**: Human Protein Atlas shows expression of both receptors in T-cell subsets. OmniPath annotates TGFB1 as ligand and TGFBR1/TGFBR2 as receptors in intercellular communication.
 
-## OmniPath findings
-[Key annotations, ligand/receptor roles, relevant interactions you found]
+## OmniPath Findings
+TGFB1 is classified as a secreted ligand; TGFBR1 and TGFBR2 are annotated as receptors. The interaction belongs to the TGF-beta signaling category.
 
-## STRING network interpretation
-- Link or description of the network image (figures/03_string_network.png)
-- 3–5 relevant proteins: ...
-- Enriched pathway/process: ...
-- Brief interpretation (remember: associations, not always direct binding)
+## STRING Network Interpretation
+Network centered on TGFBR1 recovers TGFB1, TGFBR2, SMAD2, SMAD3, and SMAD4.  
+Enriched processes: TGF-beta signaling pathway, SMAD protein signal transduction, negative regulation of immune response.
 
-## IntAct validation
-- Protein pair examined: TGFB1 – TGFBR2 (or other)
-- Experimental method, organism, publication
-- What the evidence supports (direct physical interaction or not)
+## IntAct Validation
+[Insert the specific interaction record you examined – molecules, method, organism, reference. State whether it supports direct physical interaction.]
 
-## Final model and 150–250 word interpretation
-[Insert or describe your original diagram: figures/05_final_model.png]
+## Final Model and Interpretation
+[Insert your 150–250 word paragraph here + link to 05_final_model.png]
 
-[Write the 150–250 word synthesis here]
-
-## References and database links
+## References and Database Links
 - Human Protein Atlas: https://www.proteinatlas.org/
-- OmniPath: https://explore.omnipathdb.org/ or https://omnipathdb.org/
+- OmniPath Explorer: https://explore.omnipathdb.org/
 - STRING: https://string-db.org/
 - IntAct: https://www.ebi.ac.uk/intact/
 - UniProt: https://www.uniprot.org/
-- Any papers or extra sources you used
+- Key papers: [add the PMC or PubMed links you used]
